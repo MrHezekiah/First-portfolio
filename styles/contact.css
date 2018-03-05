@@ -1,53 +1,107 @@
 body {
-	background-image: url(bgi.jpg);
+	background-image: url('../images/ricardo.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-attachment: fixed;
+	color: #fff;
 }
 
-label {
-	font-weight: bold;
-	color: yellow;
+a{
+	  text-decoration: none;
+		color: #fff;
+		/*position: fixed;*/
+}
+
+.h1, .h3 {
+	font-family: 'Brandon Grotesque','brandon-grotesque',Helvetica,sans-serif;
+}
+
+.h1{
+	padding: 5px 125px 20px;
+	line-height: 28px;
+}
+.info {
+	width: 25%;
+	padding: 0 0 0 125px;
+	border-right: 0;
+	line-height: 28px;
+}
+
+.contact-form1{
+	font-family: 'Brandon Grotesque','brandon-grotesque',Helvetica,sans-serif;
+	padding: 5px 50px 20px 125px;
+	height: 30vh;
+	width: 30%;
+	float: left;
+}
+
+.contact-form2{
+	font-family: 'Brandon Grotesque','brandon-grotesque',Helvetica,sans-serif;
+	padding: 50px 200px 20px 70px;
+	margin-top: 1%;
+	float: left;
+	width: 30%;
+	height: 30vh;
+}
+
+.contact-form3{
+	font-family: 'Brandon Grotesque','brandon-grotesque',Helvetica,sans-serif;
+	padding: 5px 125px 20px;
+	width: 80%;
 }
 
 input[type="text"], input[type="date"] {
+	border: 1px solid #000;
 	width: 300px;
 	height: 50px;
-	border: 2px solid red;
-	font-size: 30px;
+	font-size: 15px;
+	/*background: #b2beb5;*/
 }
 
 input[type="submit"] {
-	border: 3px solid purple;
-	width: 100px;
-	height: 30px;
-	color: orange;
+	border: 1px solid #000;
+	width: 300px;
+	height: 40px;
+	color: #fff;
+	background: #b2beb5;
 	padding: 10px 20px;
 }
 
 input[type="submit"]:hover {
-	background-color: aqua;
+	background-color: #13cdf5;
 
 }
 
 textarea {
-	width: 300px;
-	height: 150px;
-	border: 2px solid red;
+	width: 630px;
+	height: 100px;
+	border: 1px solid #000;
 }
 
 [placeholder]{
-	font-size: 30px; /* for the text in the "your messeage" field */
+	font-size: 15px; /* for the text in the "your messeage" field */
 
 }
 
 input:focus, textarea:focus {
-	background-color: bisque; /* for the colour change in the text areas when clicked on*/
+	background-color: #ffe4c4; /* for the colour change in the text areas when clicked on*/
 }
 
-select {
-	font-weight: bold;
-	font-size: 25px;
-	color: red;
-	border: 2px solid green;
+footer{
+	background: #19193b;
+	border: solid #19193b;
+	margin-bottom: 0;
+}
 
+footer li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 0 0 0 125px;
+	font-family: 'Brandon Grotesque','brandon-grotesque',Helvetica,sans-serif;
+	font-size: 10px;
+
+}
+
+footer a{
+	color: #7fb0f4;
 }
