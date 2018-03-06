@@ -1,9 +1,10 @@
 body {
-	background-image: url('../images/ricardo.jpg');
+	background-image: url('../images/seth.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 	color: #fff;
+	font-family: 'Poiret One', cursive;
 }
 
 a{
@@ -13,7 +14,7 @@ a{
 }
 
 .h1, .h3 {
-	font-family: 'Brandon Grotesque','brandon-grotesque',Helvetica,sans-serif;
+	/*font-family: 'Brandon Grotesque','brandon-grotesque',Helvetica,sans-serif;*/
 }
 
 .h1{
@@ -28,7 +29,7 @@ a{
 }
 
 .contact-form1{
-	font-family: 'Brandon Grotesque','brandon-grotesque',Helvetica,sans-serif;
+	/*font-family: 'Brandon Grotesque','brandon-grotesque',Helvetica,sans-serif;*/
 	padding: 5px 50px 20px 125px;
 	height: 30vh;
 	width: 30%;
@@ -36,7 +37,7 @@ a{
 }
 
 .contact-form2{
-	font-family: 'Brandon Grotesque','brandon-grotesque',Helvetica,sans-serif;
+	/*font-family: 'Brandon Grotesque','brandon-grotesque',Helvetica,sans-serif;*/
 	padding: 50px 200px 20px 70px;
 	margin-top: 1%;
 	float: left;
@@ -45,7 +46,7 @@ a{
 }
 
 .contact-form3{
-	font-family: 'Brandon Grotesque','brandon-grotesque',Helvetica,sans-serif;
+	/*font-family: 'Brandon Grotesque','brandon-grotesque',Helvetica,sans-serif;*/
 	padding: 5px 125px 20px;
 	width: 80%;
 }
@@ -58,18 +59,22 @@ input[type="text"], input[type="date"] {
 	/*background: #b2beb5;*/
 }
 
+input[name="subject"]{
+	width: 630px;
+	height: 50px;
+	border: 1px solid #000;
+}
+
 input[type="submit"] {
 	border: 1px solid #000;
 	width: 300px;
 	height: 40px;
 	color: #fff;
 	background: #b2beb5;
-	padding: 10px 20px;
 }
 
 input[type="submit"]:hover {
 	background-color: #13cdf5;
-
 }
 
 textarea {
@@ -88,20 +93,21 @@ input:focus, textarea:focus {
 }
 
 footer{
-	background: #19193b;
-	border: solid #19193b;
+	background: #000;
+	border: solid #000;
 	margin-bottom: 0;
+	margin-top: 20%;
 }
 
 footer li{
 	list-style-type: none;
 	display: inline-block;
 	padding: 0 0 0 125px;
-	font-family: 'Brandon Grotesque','brandon-grotesque',Helvetica,sans-serif;
-	font-size: 10px;
+	/*font-family: 'Brandon Grotesque','brandon-grotesque',Helvetica,sans-serif;*/
+	font-size: 15px;
 
 }
 
 footer a{
-	color: #7fb0f4;
+	color: #b2beb5;
 }

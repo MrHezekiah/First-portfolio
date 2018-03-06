@@ -1,0 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+
+body{
+  font-family: 'Poiret One', cursive;
+  background-image: url('../images/jeremy.jpg');
+  background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #fff;
+}
+a{
+	  text-decoration: none;
+		color: #fff;
+  }
+
+  .profile {
+  	width: 50vw;
+  	padding: 0 50px 0 100px;
+  	border-right: 0;
+  	line-height: 28px;
+    float: left;
+  }
+
+  .journal {
+  	width: 50vw;
+  	padding: 0 100px 0 50px;
+  	border-right: 0;
+  	line-height: 28px;
+    float: left;
+  }
+
+  footer{
+  	background: #636f23;
+  	border: solid #636f23;
+    margin-top: 80%;
+  	margin-bottom: 0;
+
+  }
+
+  footer li{
+  	list-style-type: none;
+  	display: inline-block;
+  	padding: 0 0 0 125px;
+  	/*font-family: 'Brandon Grotesque','brandon-grotesque',Helvetica,sans-serif;*/
+  	font-size: 15px;
+  }
+
+  footer a{
+  	color: #b2beb5;}
