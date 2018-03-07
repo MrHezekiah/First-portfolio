@@ -98,6 +98,7 @@ body, body * {
   /* About CSS */
 
   .about{
+    font-size: 1.6rem;
     font-family: 'Poiret One', cursive;
     background-image: url('../images/jeremy.jpg');
     background-repeat: no-repeat;
@@ -150,6 +151,7 @@ body, body * {
 
 
     .contact{
+      font-size: 1.6rem;
     	background-image: url('../images/seth.jpg');
     	background-repeat: no-repeat;
     	background-size: cover;
@@ -256,7 +258,6 @@ body, body * {
     	padding: 0 0 0 125px;
     	/*font-family: 'Brandon Grotesque','brandon-grotesque',Helvetica,sans-serif;*/
     	font-size: 15px;
-
     }
 
     .footer-contact a{
