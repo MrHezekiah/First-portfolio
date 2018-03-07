@@ -11,7 +11,7 @@ body, body * {
 
 /*Typography*/
 
-body {
+.index {
   font-size: 1.6rem;
   font-family: 'Poiret One', cursive;
   background-image: url('../images/john.jpg');
@@ -76,7 +76,7 @@ body {
   color: #fff;
 }
 
-footer{
+.footer-index{
   background: #1e0000;
   border: solid #1e0000;
   margin-top: 60%;
@@ -84,7 +84,7 @@ footer{
 
 }
 
-footer li{
+.footer-index li{
   list-style-type: none;
   display: inline-block;
   padding: 0 0 0 125px;
@@ -92,5 +92,173 @@ footer li{
   font-size: 15px;
 }
 
-footer a{
+.footer-index a{
   color: #fff;}
+
+  /* About CSS */
+
+  .about{
+    font-family: 'Poiret One', cursive;
+    background-image: url('../images/jeremy.jpg');
+    background-repeat: no-repeat;
+  	background-size: cover;
+  	background-attachment: fixed;
+  	color: #fff;
+  }
+  a{
+  	  text-decoration: none;
+  		color: #fff;
+    }
+
+    .profile {
+    	width: 50vw;
+    	padding: 0 50px 0 100px;
+    	border-right: 0;
+    	line-height: 28px;
+      float: left;
+    }
+
+    .journal {
+    	width: 50vw;
+    	padding: 0 100px 0 50px;
+    	border-right: 0;
+    	line-height: 28px;
+      float: left;
+    }
+
+    .footer-about{
+    	background: #636f23;
+    	border: solid #636f23;
+      margin-top: 80%;
+    	margin-bottom: 0;
+
+    }
+
+    .footer-about li{
+    	list-style-type: none;
+    	display: inline-block;
+    	padding: 0 0 0 125px;
+    	/*font-family: 'Brandon Grotesque','brandon-grotesque',Helvetica,sans-serif;*/
+    	font-size: 15px;
+    }
+
+    .footer-about a{
+    	color: #b2beb5;
+    }
+
+    /* Contact CSS */
+
+
+    .contact{
+    	background-image: url('../images/seth.jpg');
+    	background-repeat: no-repeat;
+    	background-size: cover;
+    	background-attachment: fixed;
+    	color: #fff;
+    	font-family: 'Poiret One', cursive;
+    }
+
+    a{
+    	  text-decoration: none;
+    		color: #fff;
+    		/*position: fixed;*/
+    }
+
+    .h1, .h3 {
+    	/*font-family: 'Brandon Grotesque','brandon-grotesque',Helvetica,sans-serif;*/
+    }
+
+    .h1{
+    	padding: 5px 125px 20px;
+    	line-height: 28px;
+    }
+    .info {
+    	width: 25%;
+    	padding: 0 0 0 125px;
+    	border-right: 0;
+    	line-height: 28px;
+    }
+
+    .contact-form1{
+    	/*font-family: 'Brandon Grotesque','brandon-grotesque',Helvetica,sans-serif;*/
+    	padding: 5px 50px 20px 125px;
+    	height: 30vh;
+    	width: 30%;
+    	float: left;
+    }
+
+    .contact-form2{
+    	/*font-family: 'Brandon Grotesque','brandon-grotesque',Helvetica,sans-serif;*/
+    	padding: 50px 200px 20px 70px;
+    	margin-top: 1%;
+    	float: left;
+    	width: 30%;
+    	height: 30vh;
+    }
+
+    .contact-form3{
+    	/*font-family: 'Brandon Grotesque','brandon-grotesque',Helvetica,sans-serif;*/
+    	padding: 5px 125px 20px;
+    	width: 80%;
+    }
+
+    input[type="text"], input[type="date"] {
+    	border: 1px solid #000;
+    	width: 300px;
+    	height: 50px;
+    	font-size: 15px;
+    	/*background: #b2beb5;*/
+    }
+
+    input[name="subject"]{
+    	width: 630px;
+    	height: 50px;
+    	border: 1px solid #000;
+    }
+
+    input[type="submit"] {
+    	border: 1px solid #000;
+    	width: 300px;
+    	height: 40px;
+    	color: #fff;
+    	background: #b2beb5;
+    }
+
+    input[type="submit"]:hover {
+    	background-color: #13cdf5;
+    }
+
+    textarea {
+    	width: 630px;
+    	height: 100px;
+    	border: 1px solid #000;
+    }
+
+    [placeholder]{
+    	font-size: 15px; /* for the text in the "your messeage" field */
+
+    }
+
+    input:focus, textarea:focus {
+    	background-color: #ffe4c4; /* for the colour change in the text areas when clicked on*/
+    }
+
+    .footer-contact{
+    	background: #000;
+    	border: solid #000;
+    	margin-bottom: 0;
+    	margin-top: 20%;
+    }
+
+    .footer-contact li{
+    	list-style-type: none;
+    	display: inline-block;
+    	padding: 0 0 0 125px;
+    	/*font-family: 'Brandon Grotesque','brandon-grotesque',Helvetica,sans-serif;*/
+    	font-size: 15px;
+
+    }
+
+    .footer-contact a{
+    	color: #b2beb5;
+    }
